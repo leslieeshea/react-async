@@ -1,0 +1,16 @@
+.Quotes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+  li {
+    width: 20vw;
+    margin: 2em;
+    padding: 2rem;
+
+    background-color: #f0f0f0;
+    text-align: center;
+    list-style-type: none;
+  }
+}
