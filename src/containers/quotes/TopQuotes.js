@@ -10,7 +10,7 @@ export default class TopQuotes extends PureComponent {
   }
 
   static defaultProps = {
-    count: 10
+    count: 12
   }
 
   state = {
