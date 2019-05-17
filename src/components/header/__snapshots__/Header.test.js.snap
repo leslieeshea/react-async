@@ -2,6 +2,6 @@
 
 exports[`Header component renders the header 1`] = `
 <h1>
-  Rick and Morty Quotes
+  Rick and Morty Characters
 </h1>
 `;
