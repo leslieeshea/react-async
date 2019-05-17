@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component renders a character 1`] = `
+<section>
+  <img
+    src="/image"
+  />
+  <p>
+    Morty Smith
+  </p>
+  <p>
+    Alive
+  </p>
+  <p>
+    Human
+  </p>
+</section>
+`;
