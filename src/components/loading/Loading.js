@@ -1,5 +1,5 @@
 import React from 'react';
-import spinner from '../assets/spinner.jpeg';
+import spinner from '../../assets/spinner.jpeg';
 import styles from './Loading.css';
 
 export default function Loading() {
