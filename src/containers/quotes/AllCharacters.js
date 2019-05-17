@@ -15,6 +15,10 @@ export default class AllCharacters extends PureComponent {
       .then(({ characters }) => this.setState({ characters, loading: false }));
   }
 
+  componentDidMount() {
+    this.fetchCharacters();
+  }
+
   render() {
     const { characters, loading } = this.state;
     if(loading) return <Loading />;
