@@ -3,6 +3,8 @@
 exports[`App component renders the app 1`] = `
 <Fragment>
   <Header />
-  <AllCharacters />
+  <WithFetch
+    page={1}
+  />
 </Fragment>
 `;
